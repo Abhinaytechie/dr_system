@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+torch==2.2.0
+torchvision
+numpy==1.26.4
+pillow
+groq
+python-dotenv
+timm
+google-search-results
+opencv-python-headless
+fpdf2
+reportlab
+pypdf
+matplotlib
