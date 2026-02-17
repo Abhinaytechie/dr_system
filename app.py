@@ -35,7 +35,7 @@ class ReportRequest(BaseModel):
     prediction_result: dict
     user_message: str = ""
 
-@app.get("/", methods=["GET", "HEAD"])
+@app.get("/")
 def read_root():
     return {"message": "Welcome to DR Detection API"}
 
