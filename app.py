@@ -99,7 +99,4 @@ async def download_report(request: ReportRequest):
         print(f"PDF Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    is_prod = "PORT" in os.environ
-    uvicorn.run("app:app", host="0.0.0.0", port=port, reload=not is_prod)
+
