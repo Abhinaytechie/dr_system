@@ -2,9 +2,9 @@ fastapi
 uvicorn
 pydantic
 python-multipart
-torch==2.2.0
+torch
 torchvision
-numpy==1.26.4
+numpy
 pillow
 groq
 python-dotenv
